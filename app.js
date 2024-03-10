@@ -8,7 +8,7 @@ const deliveryRoutes = require('./Routes/deliveryRoutes');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://divyanshu:divyanshu@cluster0.57fvbtj.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongo url/', { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use('/api/user', userRoutes);
 app.use('/api/restaurant', restaurantRoutes);
