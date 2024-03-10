@@ -114,6 +114,65 @@ You can use Postman to interact with the API endpoints.
     }
     ```
 
+
+
+```
+https://<your-netlify-site>.netlify.app/.netlify/functions/<function-name>
+```
+
+Here's how you can construct endpoints for each of your functions based on their respective names:
+
+1. **Update Delivery Status**:
+   ```
+   PUT https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/updateDeliveryStatus
+   ```
+
+2. **Update Menu**:
+   ```
+   PUT https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/updateMenu
+   ```
+
+3. **Update Status**:
+   ```
+   PUT https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/updateStatus
+   ```
+
+4. **Accept/Reject Order**:
+   ```
+   POST https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/acceptRejectOrder
+   ```
+
+5. **Add Item to Menu**:
+   ```
+   PUT https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/addItemToMenu
+   ```
+
+6. **Get Menu Items**:
+   ```
+   GET https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/getMenuItems
+   ```
+
+7. **Get Restaurants**:
+   ```
+   GET https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/getRestaurants
+   ```
+
+8. **Place Order**:
+   ```
+   POST https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/placeOrder
+   ```
+
+9. **Get Order Details**:
+   ```
+   GET https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/getOrderDetails
+   ```
+
+10. **Leave Rating**:
+    ```
+    POST https://genuine-muffin-6cbc3c.netlify.app/.netlify/functions/leaveRating
+    ```
+
+
 #### Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests.
 
